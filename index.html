@@ -7,14 +7,15 @@
     <title>Google!</title>
 </head>
 <body>    
+    <img src="./images/google-beta.jpg" alt="Google beta image">
     <div class="center">
-      <img src="./images/google-beta.jpg" alt="Google beta image">
         <div class="top">
             <p>Search the web using Google!</p>
             <input type="text" name="input" id="input-box">
-            <br/>
-            <button class="search-button" type="button">Google Search</button>
-            <button class="search-button" type="button">I'm feeling lucky</button>
+            <div class="button-align">
+                <button class="search-button" type="button">Google Search</button>
+                <button class="search-button" type="button">I'm feeling lucky</button>
+            </div>
         </div>
 
         <div class="bottom">
@@ -32,10 +33,15 @@
             <div class="info-box right">
                 <p>Get Google!</p>
                 <p>updates monthly:</p>
-                <input type="text" value="your e-mail" name="input" id="email-box">
-                <button type="button">Subscribe</button>
-                <p>Archive</p>
+                <div class="sub-archive">
+                  <input type="text" value="your e-mail" name="input" id="email-box">
+                  <button class="inline" type="button">Subscribe</button>
+                  <p class="inline">Archive</p>
+                </div>
             </div>
+        </div>
+        <div class="footer">
+            <p>Copyright ©1998 Google Inc.</p>
         </div>
     </div>
 </body>
