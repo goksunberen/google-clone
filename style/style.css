@@ -8,7 +8,11 @@
 .top{
     background-color: #EEEEEE;
 }
+.top>p{
+    padding-top: 5px;
+}
 .bottom{
+    margin-top: 5px;
     justify-content: space-between;
     display: flex;
 }
@@ -16,10 +20,12 @@
     background-color: #7EE5DA;
     float: left;
     width: 35%;
+    margin-right: 5px;
 }
 .info-box.middle{
     background-color: #70CCC2;
     width: 30%;
+    margin-right: 5px;
 }
 .info-box.right{
     background-color: #62B3AA;
